@@ -17,13 +17,14 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   width: auto;
-  background-color: orange;
+  background-color: #686767
 }
 
 .logo {
@@ -55,11 +56,18 @@ nav {
 }
 
 .nav-btn {
-  display: flex;
-  height: 50px;
-  width: 110px;
-  margin: 44px 20px 0 0;
-  border: 1px solid #fff;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.nav-btn div {
+  background-color: transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: 2px #000 solid;
+  border-radius: 5px;
 }
 
 .top-container {
