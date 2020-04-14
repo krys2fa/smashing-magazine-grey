@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,700;1,300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +15,51 @@ body {
   background-color: blue;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   width: auto;
   background-color: orange;
+}
+
+.logo {
+  height: 100px;
+  margin: 20px 0 0 20px;
+  background-color: transparent;
+}
+
+.nav-items {
+  text-align: center;
+}
+
+.nav-items a p {
+  color: #fff;
+  font-family: 'Spectral', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.nav-items a img {
+  height: 45px;
+  margin-top: 20px;
+}
+
+.nav-items h2 {
+  font-family: 'Spectral', serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav-btn {
+  display: flex;
+  height: 50px;
+  width: 110px;
+  margin: 44px 20px 0 0;
+  border: 1px solid #fff;
 }
 
 .top-container {
@@ -32,20 +73,19 @@ nav {
 }
 
 .top-continer-items {
-background-color: cadetblue;
+  background-color: cadetblue;
 }
 
 .membership {
   background-color: chartreuse;
   height: 200px;
-  
 }
 
 .latest-posts {
   background-color: cyan;
   height: 1000px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px 200px 200px 100px;
   grid-gap: 10px;
 }
@@ -53,8 +93,6 @@ background-color: cadetblue;
 .latest-posts-item {
   background-color: #000;
 }
-
-
 
 .handbook {
   width: 100%;
@@ -66,8 +104,8 @@ background-color: cadetblue;
   height: auto;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2,50%);
-  grid-template-rows: 100px repeat(3,100px) 100px;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 100px repeat(3, 100px) 100px;
   background-color: pink;
   grid-gap: 10px;
 }
@@ -90,12 +128,9 @@ background-color: cadetblue;
   grid-gap: 10px;
 }
 
-
-
 .curated-post {
-  background-color: brown
+  background-color: brown;
 }
-
 
 .newsletter {
   grid-column: 2/-1;
