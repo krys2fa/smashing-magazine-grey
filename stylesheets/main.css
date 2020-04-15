@@ -9,6 +9,10 @@
   grid-column: 1/-1;
 }
 
+.fill-row-link {
+  text-align: center;
+}
+
 .flex-v,
 .flex-h {
   display: flex;
@@ -183,7 +187,7 @@ nav {
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 550px 750px 550px 550px;
+  grid-template-rows: 550px 750px 750px 550px;
 }
 
 .latest-posts-item {
@@ -277,9 +281,10 @@ p.l-p-i-fourth-last {
   content: "";
 }
 
-
-
-
+.fill-row-link a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 .handbook {
   width: 100%;
