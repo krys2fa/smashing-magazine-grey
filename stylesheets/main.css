@@ -334,7 +334,7 @@ p.l-p-i-fourth-last {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 370px repeat(3, 100px) 100px;
+  grid-template-rows: 370px repeat(3, 370px) 100px;
   background-color: pink;
   grid-gap: 10px;
 }
@@ -370,11 +370,40 @@ p.l-p-i-fourth-last {
   color: #000;
 }
 
+.community-link-normal {
+  padding-left: 50px;
+}
+
+.community-link-normal img{
+  height: 70px;  
+  padding-right: 50px;
+  margin-top: 40px;
+  }
+
+
+
+.community-link-normal h2 {
+  font-size: 32px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.community-link-normal p {
+  font-size: 19px;
+  width: 90%;
+  line-height: 32px;
+}
+
+
+
 .smashing-book {
   height: 100px;
   width: 100%;
   background-color: rgb(20, 204, 36);
 }
+
+
 
 .curated-posts {
   display: grid;
