@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,700;1,300&display=swap");
 
 * {
   margin: 0;
@@ -125,7 +125,6 @@ nav {
   margin-right: 20px;
 }
 
-
 .latest-articles {
   position: relative;
   top: 0;
@@ -230,10 +229,8 @@ nav {
   content: "→";
 }
 
-
-
 .l-p-i-fourth {
-  color: #fff
+  color: #fff;
 }
 
 .l-p-i-fourth a {
@@ -277,7 +274,6 @@ nav {
 p.l-p-i-fourth-last {
   margin: 0;
 }
-
 
 .l-p-i-fourth::after {
   content: "";
@@ -358,6 +354,8 @@ p.l-p-i-fourth-last {
   border-radius: 20px;
   border: solid 7px;
   width: 100%;
+  height: 100%;
+  max-width: 250px;
 }
 
 .c-l-first div {
@@ -387,8 +385,6 @@ p.l-p-i-fourth-last {
   padding-right: 50px;
   margin-top: 40px;
 }
-
-
 
 .community-link-normal h2 {
   font-size: 32px;
