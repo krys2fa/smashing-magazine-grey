@@ -196,7 +196,7 @@ nav {
   color: #000;
   font-size: 15px;
 }
-
+.community-link a,
 .latest-posts-item a {
   color: #000;
   text-decoration: underline;
@@ -336,11 +336,16 @@ p.l-p-i-fourth-last {
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: 370px repeat(3, 370px) 100px;
   background-color: pink;
-  grid-gap: 10px;
 }
 
 .community-link {
   background-color: #fff;
+  padding-top: 35px;
+}
+
+.community-link a {
+  color: #000;
+  padding-top: 30px;
 }
 
 .c-l-first {
@@ -350,6 +355,7 @@ p.l-p-i-fourth-last {
 .c-l-first img {
   border-radius: 20px;
   border: solid 7px;
+  width: 100%;
 }
 
 .c-l-first div {
