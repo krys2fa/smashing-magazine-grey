@@ -334,13 +334,40 @@ p.l-p-i-fourth-last {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 100px repeat(3, 100px) 100px;
+  grid-template-rows: 370px repeat(3, 100px) 100px;
   background-color: pink;
   grid-gap: 10px;
 }
 
 .community-link {
-  background-color: red;
+  background-color: #fff;
+}
+
+.c-l-first {
+  padding: 50px 60px 0 100px;
+}
+
+.c-l-first img {
+  border-radius: 20px;
+  border: solid 7px;
+}
+
+.c-l-first div {
+  padding-left: 50px;
+}
+
+.c-l-first h2 {
+  padding-bottom: 50px;
+  font-size: 19px;
+}
+
+.c-l-first p {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.c-l-first a {
+  color: #000;
 }
 
 .smashing-book {
