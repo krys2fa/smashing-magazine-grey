@@ -517,6 +517,22 @@ p.l-p-i-fourth-last {
 }
 
 footer {
-  background-color: black;
+  background-color: #fff;
   height: 200px;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer li::before{
+  list-style: none;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
+  padding-left: 50px;
+}
+
+footer a {
+  color: #000;
 }
