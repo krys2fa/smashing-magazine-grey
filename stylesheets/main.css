@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,700;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,700;1,300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +42,7 @@ body {
   width: 100%;
   min-width: 980px;
   background-color: blue;
+  font-family: "Spectral", serif;
 }
 
 a {
@@ -119,8 +120,7 @@ nav {
   margin-right: 20px;
 }
 
-.top-continer-items i {
-}
+.top-continer-items i {}
 
 .latest-articles {
   position: relative;
@@ -181,15 +181,48 @@ nav {
 
 .latest-posts {
   background-color: cyan;
-  height: 1000px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 200px 200px 100px;
-  grid-gap: 10px;
+  grid-template-rows: 550px 550px 550px 550px;
 }
 
 .latest-posts-item {
-  background-color: #000;
+  background-color: #fff;
+  padding: 50px;
+  color: #000;
+  font-size: 15px;
+}
+
+.latest-posts-item a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.latest-posts-item h1 {
+  font-size: 25px;
+  margin: 20px 0 20px;
+  line-height: 33px;
+}
+
+.latest-posts-item span {
+  font-size: 17px;
+}
+
+.latest-posts-item span a {
+  font-size: 15px;
+}
+
+.latest-posts-item p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0 80px;
+  line-height: 32px;
+}
+
+.latest-posts-item::after {
+  content: "→";
 }
 
 .handbook {
@@ -237,4 +270,9 @@ nav {
 footer {
   background-color: black;
   height: 200px;
+}
+
+background-color: black;
+height: 200px;
+
 }
