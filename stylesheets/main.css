@@ -187,7 +187,7 @@ nav {
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 550px 750px 750px 550px;
+  grid-template-rows: 550px 750px 750px 150px;
 }
 
 .latest-posts-item {
@@ -260,7 +260,7 @@ nav {
   line-height: 53px;
 }
 
-.l-p-i-fourth button{
+.utility-button {
   background-color: red;
   height: 50px;
   border-color: transparent;
@@ -288,8 +288,45 @@ p.l-p-i-fourth-last {
 
 .handbook {
   width: 100%;
-  height: 300px;
-  background-color: yellow;
+  height: 1100px;
+  color: #fff;
+  text-align: center;
+}
+
+.handbook header {
+  padding: 20px 0;
+  font-size: 1.1em;
+}
+
+.handbook header span {
+  margin: 20px auto;
+  font-size: 16px;
+}
+
+.handbook h2 {
+  padding: 20px 0;
+  font-size: 53px;
+}
+
+.handbook header p {
+  font-size: 48px;
+}
+
+.handbook p {
+  font-size: 25px;
+  margin: 0 25%;
+  line-height: 40px;
+}
+
+.handbook button {
+  left: 0;
+  transform: translateX(0);
+  display: block;
+}
+
+.handbook img {
+  position: relative;
+  bottom: 0;
 }
 
 .community-links {
