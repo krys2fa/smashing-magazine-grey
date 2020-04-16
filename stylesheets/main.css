@@ -50,11 +50,15 @@
   background-color: #858585;
 }
 
+.back-color-5 {
+  background-color: #fff;
+}
+
 body {
   width: 100%;
   min-width: 980px;
-  /* background-color: blue; */
   font-family: "Spectral", serif;
+  color: #fff;
 }
 
 a {
@@ -66,7 +70,6 @@ nav {
   display: flex;
   justify-content: space-between;
   width: auto;
-  background-color: #686767;
 }
 
 .logo {
@@ -146,10 +149,10 @@ nav {
 }
 
 .latest-articles h1 {
-  background-color: #fff;
   margin: 0 auto;
   width: 324px;
-  color: #000;
+  color: #fff;
+  border: solid #333 10px
 }
 
 .name {
@@ -188,12 +191,10 @@ nav {
 }
 
 .membership {
-  background-color: chartreuse;
   height: 200px;
 }
 
 .latest-posts {
-  background-color: cyan;
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -201,7 +202,6 @@ nav {
 }
 
 .latest-posts-item {
-  background-color: #fff;
   padding: 50px;
   color: #000;
   font-size: 15px;
@@ -342,8 +342,7 @@ p.l-p-i-fourth-last {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 370px repeat(3, 370px) 100px;
-  background-color: pink;
+  grid-template-rows: auto repeat(3, 370px) 100px;
 }
 
 .community-link {
@@ -410,7 +409,6 @@ p.l-p-i-fourth-last {
 .smashing-book {
   height: auto;
   width: 100%;
-  /* background-color: rgb(20, 204, 36); */
   padding: 40px;
 }
 
@@ -541,17 +539,19 @@ footer li {
 }
 
 footer h4 {
-  margin: 60px auto;
+  margin: 0 auto 60px;
+  padding-top: 60px;
 }
 
 footer ul {
   margin-bottom: 60px;
   font-size: 24px;
   line-height: 39px;
+  color
 }
 
 footer a {
-  color: #000;
+  color: #fff;
 }
 
 .footer-notes {
