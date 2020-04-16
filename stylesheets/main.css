@@ -8,8 +8,9 @@
 
 .style-img {
   border-radius: 20px;
-  border: solid  #777 7px;
+  border: solid #777 7px;
   transform: rotate(-15deg);
+  box-sizing: content-box;
 }
 
 .fill-row {
@@ -115,7 +116,7 @@ nav {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 500px;
+  grid-template-rows: 600px 500px;
   grid-auto-flow: column;
   background-color: red;
 }
@@ -125,11 +126,14 @@ nav {
   padding-left: 100px;
 }
 
+.wider-top-space {
+  padding-top: 150px;
+}
+
 .top-continer-items img {
   height: 75px;
   float: left;
   margin-right: 20px;
-
 }
 
 .latest-articles {
@@ -139,7 +143,6 @@ nav {
   text-align: center;
   font-size: 30px;
   color: #fff;
-  border: 1px solid #000;
 }
 
 .latest-articles h1 {
@@ -358,7 +361,6 @@ p.l-p-i-fourth-last {
 }
 
 .c-l-first img {
-
   width: 100%;
   height: 100%;
   max-width: 250px;
@@ -390,7 +392,6 @@ p.l-p-i-fourth-last {
   height: 70px;
   margin-right: 50px;
   margin-top: 40px;
-  box-sizing: content-box;
 }
 
 .community-link-normal h2 {
