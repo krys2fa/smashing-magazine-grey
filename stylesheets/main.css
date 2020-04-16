@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.style-img {
+  border-radius: 20px;
+  border: solid  #777 7px;
+  transform: rotate(-15deg);
+}
+
 .fill-row {
   grid-column: 1/-1;
 }
@@ -123,6 +129,7 @@ nav {
   height: 75px;
   float: left;
   margin-right: 20px;
+
 }
 
 .latest-articles {
@@ -351,8 +358,7 @@ p.l-p-i-fourth-last {
 }
 
 .c-l-first img {
-  border-radius: 20px;
-  border: solid 7px;
+
   width: 100%;
   height: 100%;
   max-width: 250px;
@@ -382,8 +388,9 @@ p.l-p-i-fourth-last {
 
 .community-link-normal img {
   height: 70px;
-  padding-right: 50px;
+  margin-right: 50px;
   margin-top: 40px;
+  box-sizing: content-box;
 }
 
 .community-link-normal h2 {
@@ -493,7 +500,6 @@ p.l-p-i-fourth-last {
 
 .newsletter img {
   height: 500px;
-  
 }
 
 .input-container {
@@ -520,10 +526,11 @@ footer {
   background-color: #fff;
   height: auto;
   text-align: center;
-  background-image: url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"), url("https://d33wubrfki0l68.cloudfront.net/d397e7a1b0a5401f19e97ecb9829ee61baadf3ed/9f677/images/smashing-cat/cat-the-behemoth.svg"); 
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"),
+    url("https://d33wubrfki0l68.cloudfront.net/d397e7a1b0a5401f19e97ecb9829ee61baadf3ed/9f677/images/smashing-cat/cat-the-behemoth.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: 20% 80%, 80% 80%; 
-  background-size: 11em auto, 14em auto; 
+  background-position: 20% 80%, 80% 80%;
+  background-size: 11em auto, 14em auto;
 }
 
 footer li {
@@ -552,6 +559,6 @@ footer a {
 
 .footer-links {
   margin: 20px auto;
-  width: 50%;
+  width: 40%;
   font-size: 16px;
 }
