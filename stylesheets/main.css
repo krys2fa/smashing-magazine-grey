@@ -518,21 +518,40 @@ p.l-p-i-fourth-last {
 
 footer {
   background-color: #fff;
-  height: 200px;
+  height: auto;
   text-align: center;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"), url("https://d33wubrfki0l68.cloudfront.net/d397e7a1b0a5401f19e97ecb9829ee61baadf3ed/9f677/images/smashing-cat/cat-the-behemoth.svg"); 
+  background-repeat: no-repeat, no-repeat;
+  background-position: 20% 80%, 80% 80%; 
+  background-size: 11em auto, 14em auto; 
 }
 
 footer li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-footer li::before{
-  list-style: none;
-  background-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
-  padding-left: 50px;
+footer h4 {
+  margin: 60px auto;
+}
+
+footer ul {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 39px;
 }
 
 footer a {
   color: #000;
+}
+
+.footer-notes {
+  line-height: 28px;
+}
+
+.footer-links {
+  margin: 20px auto;
+  width: 50%;
+  font-size: 16px;
 }
