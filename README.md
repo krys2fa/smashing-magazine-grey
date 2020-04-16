@@ -33,17 +33,18 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Christopher Amanor**
 
 - Github: [@krys2fa](https://github.com/krys2fa)
 - Twitter: [@krys2fa](https://twitter.com/krys2fa)
 - Linkedin: [linkedin](https://www.linkedin.com/in/christopher-amanor-81a7b93b/)
 
-👤 **Author2**
+👤 **Hasan Özovalı**
 
-- Github: [@krys2fa](https://github.com/krys2fa)
-- Twitter: [@krys2fa](https://twitter.com/krys2fa)
-- Linkedin: [linkedin](https://www.linkedin.com/in/christopher-amanor-81a7b93b/)
+- Github: [@ozovalihasan](https://github.com/ozovalihasan)
+- Twitter: [@ozovalihasan](https://twitter.com/ozovalihasan)
+- Linkedin: [Hasan Özovalı](https://www.linkedin.com/in/hasan-ozovali/)
+- Mail: [ozovalihasan@gmail.com](ozovalihasan@gmail.com)
 
 ## 🤝 Contributing
 
