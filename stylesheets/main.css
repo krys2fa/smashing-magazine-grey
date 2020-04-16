@@ -39,7 +39,7 @@
 }
 
 .back-color-2 {
-  background-color: #555555;
+  background-color: #555;
 }
 
 .back-color-3 {
@@ -152,7 +152,7 @@ nav {
   margin: 0 auto;
   width: 324px;
   color: #fff;
-  border: solid #333 10px
+  border: solid #333 10px;
 }
 
 .name {
@@ -525,7 +525,8 @@ footer {
   background-color: #fff;
   height: auto;
   text-align: center;
-  background-image: url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"),
+  background-image:
+    url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"),
     url("https://d33wubrfki0l68.cloudfront.net/d397e7a1b0a5401f19e97ecb9829ee61baadf3ed/9f677/images/smashing-cat/cat-the-behemoth.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: 20% 80%, 80% 80%;
@@ -547,7 +548,6 @@ footer ul {
   margin-bottom: 60px;
   font-size: 24px;
   line-height: 39px;
-  color
 }
 
 footer a {
